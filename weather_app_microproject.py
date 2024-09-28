@@ -5,7 +5,7 @@ import time
 
 # MAIN LOGIC OF THE WEATHER API (BACKEND)
 def weather():
-    api_key = "61f3c26e9fe60399910326fcfacc322c"
+    api_key = "" #use your own API key, which can be generated on openweather website
     city = enter_city.get()
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(url)
