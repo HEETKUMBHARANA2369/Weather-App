@@ -20,7 +20,8 @@ A simple and intuitive weather application built using Python and the `customtki
 - `Pillow` (for handling images)
 
 ## Setup Instructions
-
+- **Fonts: Poppins, Ubuntu, Lato Black Italic
+  
 ### Prerequisites
 
 - Python 3.x installed
